@@ -114,10 +114,10 @@ article img{
 article div {
     background-color:white;
     width: 470px;
-    height: 400px;
+    height: 300px;
     overflow: scroll;
 }
-button {
+article button {
     background-color: black;
     border: none;
     color: white;
@@ -130,8 +130,10 @@ button {
     display: inline-block;
     text-decoration: none;
     cursor: pointer;
+    margin-left: 500px;
+    margin-bottom: 20px;
 }
-button:hover {
+article button:hover {
     opacity: 1
 }
 
@@ -139,12 +141,9 @@ button:hover {
 /* footer style */
 
 footer {
-    background-color:#808080 ;
-    color:black;
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    background-color:#808080;
     width: 100%;
+    height: 80px;
 }
 
 
