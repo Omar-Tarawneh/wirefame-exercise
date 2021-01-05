@@ -1,0 +1,114 @@
+/* Header and navigation bar */
+header {
+    background-color: #808080;
+}
+
+header img {
+    float: left;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+header nav {
+    float: right;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+nav ul li {
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: 50px;
+    padding-top: 40px;
+}
+li:last-child{
+    margin-right: 350px;
+}
+nav a{
+    text-decoration: none;
+    color: #BFBFBF;
+}
+nav a:hover{
+    color: black;
+}
+
+/* Section one the main image and the sub image */
+
+
+section {
+    width: 100%;
+}
+section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+/* section img:nth-last-child(-n+3) {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+} */
+section div::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+section div img {
+    display:inline-block;
+    margin: auto;
+    width: 23%;
+    padding: 5px;
+}
+section div img:first-child{
+    margin-left: 190px;
+}
+
+/* down side of the page*/
+/* article {
+    width: 100%;
+} */
+/* article div img{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+article div p {
+    display: block;
+    margin: auto;
+    width: 50%;
+} */
+/* article div img {
+    display: block;
+    margin: auto;
+}
+article div p {
+    display: block;
+    margin: auto;
+} */
+article {
+    width: 100%;
+}
+article div {
+    display: inline-block;
+    width: 50%;
+}
+
+article div:last-child{
+    float: right;
+}
+
+
+
+
+
+
+
+
+
